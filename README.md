@@ -159,10 +159,6 @@ Properties:
 
 ---
 
-## 🔐 Arquitectura de Seguridad Integral
-
-### **Seguridad en Capas (Defense in Depth)**
-
 **1. Perímetro de Red:**
 - **AWS WAF**: Protección contra OWASP Top 10
 - **Shield Advanced**: Protección DDoS
@@ -172,7 +168,9 @@ Properties:
 
 **2. Autenticación y Autorización:**
 - **OAuth 2.0 + OpenID Connect**: Estándar de la industria
-- **JWT### 🎨 Diagrama de Arquitectura General
+- **JWT**: Tokens firmados para acceso seguro
+
+### 🎨 Diagrama de Arquitectura General
 
 ```mermaid
 graph TB

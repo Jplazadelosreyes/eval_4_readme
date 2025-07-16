@@ -121,7 +121,7 @@ data:
 - **Failover Automático**: RDS Multi-AZ con 30 segundos RTO
 
 **Redis Cluster Configuration:**
-```yaml
+```
 apiVersion: v1
 kind: ConfigMap
 metadata:

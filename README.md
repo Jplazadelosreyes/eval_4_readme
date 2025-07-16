@@ -1,5 +1,3 @@
----
-
 ## 📈 Justificación de Decisiones Arquitectónicas
 
 ### **¿Por qué Microservicios sobre Monolito?**

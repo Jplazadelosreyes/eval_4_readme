@@ -358,7 +358,7 @@ Esta propuesta presenta una arquitectura basada en microservicios para la plataf
 ### 🚀 Autoescalado y Balanceo de Carga
 
 #### Horizontal Pod Autoscaler (HPA):
-```yaml
+```
 apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
 metadata:
@@ -474,7 +474,7 @@ CMD ["node", "server.js"]
 ### ⚓ Proceso de Orquestación con Kubernetes
 
 #### Deployment Strategy:
-```yaml
+```
 apiVersion: apps/v1
 kind: Deployment
 metadata:

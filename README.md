@@ -49,7 +49,7 @@
 ### **Escalabilidad Horizontal Predictiva**
 
 **Horizontal Pod Autoscaler (HPA) Avanzado:**
-```yaml
+```
 apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
 metadata:
@@ -97,7 +97,7 @@ spec:
 ```
 
 **Cluster Autoscaler con Spot Instances:**
-```yaml
+```
 apiVersion: v1
 kind: ConfigMap
 metadata:
@@ -144,7 +144,7 @@ data:
 - **Región Terciaria**: ap-southeast-1 (Asia)
 
 **Global Load Balancer con Route 53:**
-```yaml
+```
 Type: AWS::Route53::RecordSet
 Properties:
   HostedZoneId: !Ref HostedZone
@@ -426,9 +426,9 @@ const circuitBreaker = {
 
 #### Configuración de Cluster:
 - **Versión**: Kubernetes 1.28
-- **Node Groups**: 
-  - Spot instances para desarrollo
-  - On-demand para producción
+- **Node Groups**:
+    - Spot instances para desarrollo
+    - On-demand para producción
 - **Networking**: AWS VPC CNI
 - **Storage**: EBS CSI driver
 
@@ -534,7 +534,7 @@ spec:
 ```
 
 #### Service Discovery:
-```yaml
+```
 apiVersion: v1
 kind: Service
 metadata:
@@ -554,7 +554,7 @@ spec:
 **Decisión**: **Amazon ECR** como registro principal
 
 #### Pipeline de CI/CD:
-```yaml
+```
 # .github/workflows/deploy.yml
 name: Deploy to EKS
 
@@ -759,6 +759,7 @@ Este stack tecnológico ha sido seleccionado considerando:
 ### 📊 Análisis de Comunicación entre Servicios
 
 #### **Patrón de Comunicación Síncrona:**
+
 ```mermaid
 sequenceDiagram
     participant Client
@@ -962,6 +963,6 @@ sequenceDiagram
 
 ---
 
-**Desarrollado por**: [Tu Nombre]  
-**Fecha**: [Fecha de entrega]  
+**Desarrollado por**: Juan Plaza de los Reyes
+**Fecha**: 
 **Archivo**: Arquitectura_M5_DevOps_[TuNombre].pdf
